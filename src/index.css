@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  margin: 0%;
 }
 
 body {
@@ -42,4 +43,38 @@ span:hover {
 
 .navActive {
   color: green;
+}
+
+/* about */
+
+#about {
+  margin: 0 10%;
+}
+
+#about-title {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+/* portfolio */
+
+#portfolio-title {
+  text-align: center;
+}
+
+#projects {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 10%;
+  justify-content: space-around;
+}
+
+.project {
+  padding: 5px;
+}
+
+img {
+  height: 300px;
+  width: 250px;
+  border: 1px black solid;
 }

@@ -3,8 +3,8 @@ import React from "react";
 function About() {
   return (
     <section id="about">
-      <h1>About Me</h1>
-      <p>
+      <h1 id="about-title">About Me</h1>
+      <p id="about-info">
         Front-end web developer with experience in back-end. Currently finishing
         up a full-stack program through Vanderbilt University, where I am
         acquiring skills such as: HTML, CSS, JavaScript, Node.js, SQL, ORM, MVC,
