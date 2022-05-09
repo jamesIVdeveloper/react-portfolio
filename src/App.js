@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import About from "./components/About";
 import Nav from "./components/Nav";
+import Portfolio from "./components/Portfolio";
 
 function App() {
   const [pages] = useState([
@@ -23,6 +24,7 @@ function App() {
       />
       <main>
         <About />
+        <Portfolio />
       </main>
     </div>
   );
