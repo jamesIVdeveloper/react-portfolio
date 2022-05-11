@@ -24,7 +24,7 @@ function App() {
       />
       <main>
         <About />
-        <Portfolio />
+        <Portfolio currentPage={currentPage} />
       </main>
     </div>
   );
