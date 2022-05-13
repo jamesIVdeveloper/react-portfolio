@@ -6,6 +6,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: "Courier New", Courier, monospace;
 }
 
 /* header */
@@ -51,12 +52,31 @@ span:hover {
 /* about */
 
 #about {
-  margin: 0 10%;
+  margin: 10px 5%;
 }
 
 #about-title {
   text-align: center;
   margin-bottom: 5px;
+}
+
+#pic-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+#pic-info img {
+  height: 350px;
+  width: 270px;
+  border-radius: 10px;
+}
+
+#about-info {
+  width: 60%;
+  line-height: 1.2em;
 }
 
 /* portfolio */
@@ -68,7 +88,7 @@ span:hover {
 #projects {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 10%;
+  margin: 0 5%;
   justify-content: space-around;
 }
 
@@ -92,4 +112,37 @@ img {
 
 .project a:hover {
   color: blue;
+}
+
+/* contact */
+
+#contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+
+#contact-title {
+  text-align: center;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  line-height: 2em;
+}
+
+#contact-form label {
+  padding-right: 5px;
+}
+
+#contact-submit {
+  align-self: center;
+  width: 30%;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
 }
