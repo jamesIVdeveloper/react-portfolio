@@ -17,18 +17,27 @@ function App() {
 
   const [currentPage, setCurrentPage] = useState(pages[0]);
 
+  const [contactSelected, setContactSelected] = useState(false);
+
   return (
     <div>
       <Nav
         pages={pages}
         setCurrentPage={setCurrentPage}
         currentPage={currentPage}
+        contactSelected={contactSelected}
+        setContactSelected={setContactSelected}
       />
       <main>
-        <About />
-        <Portfolio currentPage={currentPage} />
-        <ContactForm />
-        <Resume />
+        {!contactSelected ? (
+          <>
+            <About />
+            <Portfolio currentPage={currentPage} />
+            <Resume />
+          </>
+        ) : (
+          <ContactForm />
+        )}
       </main>
     </div>
   );
