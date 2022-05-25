@@ -1,7 +1,13 @@
 import React, { useEffect } from "react";
 
 function Nav(props) {
-  const { pages = [], setCurrentPage, currentPage } = props;
+  const {
+    pages = [],
+    setCurrentPage,
+    currentPage,
+    contactSelected,
+    setContactSelected,
+  } = props;
 
   useEffect(() => {
     document.title = currentPage.name;
@@ -15,7 +21,12 @@ function Nav(props) {
       <nav>
         <ul>
           <li>
-            <a href="#about">About me</a>
+            <a href="#about" onClick={() => setContactSelected(false)}>
+              About me
+            </a>
+          </li>
+          <li className={`${contactSelected && "navActive"}`}>
+            <span onClick={() => setContactSelected(true)}>Contact</span>
           </li>
           {pages.map((page) => (
             <li
@@ -25,15 +36,13 @@ function Nav(props) {
               <span
                 onClick={() => {
                   setCurrentPage(page);
+                  setContactSelected(false);
                 }}
               >
                 {page.name}
               </span>
             </li>
           ))}
-          <li>
-            <span>Contact</span>
-          </li>
         </ul>
       </nav>
     </header>
