@@ -10,3 +10,4 @@ My portfolio, which showcases a bit about me, as well as my projects, resume, an
 - React
 
 ## Deployed
+https://jamesivdeveloper.github.io/react-portfolio/
