@@ -27,6 +27,26 @@ function Portfolio() {
         </div>
         <div class="project">
           <img
+            src={require("../../assets/project-imgs/neighborgood.png")}
+            alt="landing page of nieghborgood application"
+          />
+          <a
+            href="https://project-3-neighbor-good.herokuapp.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Deployed
+          </a>
+          <a
+            href="https://github.com/Jasonwesleysmith/neighbor-good"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub Repo
+          </a>
+        </div>
+        <div class="project">
+          <img
             src={require("../../assets/project-imgs/runbuddy.png")}
             alt="landing page of my run buddy application"
           />
