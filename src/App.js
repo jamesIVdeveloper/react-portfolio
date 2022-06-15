@@ -1,11 +1,13 @@
-import React, { useState } from "react";
+import React from "react";
 import About from "./components/About";
 import Nav from "./components/Nav";
 import Portfolio from "./components/Portfolio";
-import ContactForm from "./components/Contact";
+import Contact from "./components/Contact";
 import Resume from "./components/Resume";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
+  /*
   const [pages] = useState([
     {
       name: "Portfolio",
@@ -18,15 +20,16 @@ function App() {
   const [currentPage, setCurrentPage] = useState(pages[0]);
 
   const [contactSelected, setContactSelected] = useState(false);
+  */
 
   return (
     <div>
-      <Nav
-        pages={pages}
-        setCurrentPage={setCurrentPage}
-        currentPage={currentPage}
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
+      {/* <Nav
+      pages={pages}
+      setCurrentPage={setCurrentPage}
+      currentPage={currentPage}
+      contactSelected={contactSelected}
+      setContactSelected={setContactSelected}
       />
       <main>
         {!contactSelected ? (
@@ -38,7 +41,16 @@ function App() {
         ) : (
           <ContactForm />
         )}
-      </main>
+      </main> */}
+      <Nav />
+      <div className="container">
+        <Routes>
+          <Route path="/about" element={<About />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </div>
     </div>
   );
 }
