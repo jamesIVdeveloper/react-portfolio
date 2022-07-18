@@ -1,4 +1,5 @@
 import React from "react";
+import Home from "./components/Home";
 import About from "./components/About";
 import Nav from "./components/Nav";
 import Portfolio from "./components/Portfolio";
@@ -45,6 +46,7 @@ function App() {
       <Nav />
       <div className="container">
         <Routes>
+          <Route path="/react-portfolio" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/resume" element={<Resume />} />

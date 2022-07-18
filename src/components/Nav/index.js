@@ -1,5 +1,6 @@
 // import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
+import "./nav.css";
 
 function Nav() {
   // const {
@@ -48,11 +49,12 @@ function Nav() {
     //   </nav>
     // </header>
     <header>
-      <h2>James</h2>
+      <h2 className="home-link">
+        <Link to="/react-portfolio">IV</Link>
+      </h2>
       <div className="nav">
-        <Link to="/about">About me</Link> |{" "}
-        <Link to="/portfolio">Portfolio</Link> |{" "}
-        <Link to="/resume">Resume</Link> | <Link to="/contact">Contact</Link>
+        <Link to="/about">ABOUT</Link> | <Link to="/portfolio">PORTFOLIO</Link>{" "}
+        | <Link to="/resume">RESUME</Link> | <Link to="/contact">CONTACT</Link>
       </div>
     </header>
   );
