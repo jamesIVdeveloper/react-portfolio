@@ -88,6 +88,26 @@ function Portfolio() {
         </div>
         <div class="project">
           <img
+            src={require("../../assets/project-imgs/check-landing-page.png")}
+            alt="landing page of my check application"
+          />
+          <a
+            href="https://jamesivdeveloper.github.io/check/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Deployed
+          </a>
+          <a
+            href="https://github.com/jamesIVdeveloper/check"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub Repo
+          </a>
+        </div>
+        <div class="project">
+          <img
             src={require("../../assets/project-imgs/tigerwoods.png")}
             alt="landing page of my tiger woods quiz application"
           />
