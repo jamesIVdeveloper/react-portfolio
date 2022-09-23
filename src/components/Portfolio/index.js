@@ -8,6 +8,66 @@ function Portfolio() {
       <div id="projects">
         <div class="project">
           <img
+            src={require("../../assets/project-imgs/tech-blog-landing.png")}
+            alt="landing page of my tech blog application"
+          />
+          <a
+            href="https://intense-shelf-50188.herokuapp.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Deployed
+          </a>
+          <a
+            href="https://github.com/jamesIVdeveloper/tech-blog"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub Repo
+          </a>
+        </div>
+        <div class="project">
+          <img
+            src={require("../../assets/project-imgs/check-landing-page.png")}
+            alt="landing page of my check application"
+          />
+          <a
+            href="https://jamesivdeveloper.github.io/check/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Deployed
+          </a>
+          <a
+            href="https://github.com/jamesIVdeveloper/check"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub Repo
+          </a>
+        </div>
+        <div class="project">
+          <img
+            src={require("../../assets/project-imgs/parkfinder.png")}
+            alt="landing page of my park finder application"
+          />
+          <a
+            href="https://jamesivdeveloper.github.io/national-park/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Deployed
+          </a>
+          <a
+            href="https://github.com/jamesIVdeveloper/national-park"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub Repo
+          </a>
+        </div>
+        <div class="project">
+          <img
             src={require("../../assets/project-imgs/90s.png")}
             alt="landing page of my 90's movies reviews application"
           />
@@ -48,26 +108,6 @@ function Portfolio() {
         </div>
         <div class="project">
           <img
-            src={require("../../assets/project-imgs/runbuddy.png")}
-            alt="landing page of my run buddy application"
-          />
-          <a
-            href="https://jamesivdeveloper.github.io/run-buddy/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Deployed
-          </a>
-          <a
-            href="https://github.com/jamesIVdeveloper/run-buddy"
-            target="_blank"
-            rel="noreferrer"
-          >
-            GitHub Repo
-          </a>
-        </div>
-        <div class="project">
-          <img
             src={require("../../assets/project-imgs/hangman.png")}
             alt="landing page of hangman game application"
           />
@@ -88,26 +128,6 @@ function Portfolio() {
         </div>
         <div class="project">
           <img
-            src={require("../../assets/project-imgs/check-landing-page.png")}
-            alt="landing page of my check application"
-          />
-          <a
-            href="https://jamesivdeveloper.github.io/check/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Deployed
-          </a>
-          <a
-            href="https://github.com/jamesIVdeveloper/check"
-            target="_blank"
-            rel="noreferrer"
-          >
-            GitHub Repo
-          </a>
-        </div>
-        <div class="project">
-          <img
             src={require("../../assets/project-imgs/tigerwoods.png")}
             alt="landing page of my tiger woods quiz application"
           />
@@ -120,26 +140,6 @@ function Portfolio() {
           </a>
           <a
             href="https://github.com/jamesIVdeveloper/Tiger-Quiz-App"
-            target="_blank"
-            rel="noreferrer"
-          >
-            GitHub Repo
-          </a>
-        </div>
-        <div class="project">
-          <img
-            src={require("../../assets/project-imgs/parkfinder.png")}
-            alt="landing page of my park finder application"
-          />
-          <a
-            href="https://jamesivdeveloper.github.io/national-park/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Deployed
-          </a>
-          <a
-            href="https://github.com/jamesIVdeveloper/national-park"
             target="_blank"
             rel="noreferrer"
           >
