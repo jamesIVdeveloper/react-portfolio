@@ -1,7 +1,7 @@
 .homepage {
+  text-align: center;
   margin: 0 30%;
-  padding-top: 30px;
-  padding-left: 5%;
+  padding: 30px;
   display: flex;
   flex-direction: column;
 }
@@ -29,9 +29,9 @@
 }
 
 @media screen and (min-width: 700px) {
-  .homepage {
+  /* .homepage {
     padding-left: 10%;
-  }
+  } */
 
   .home-intro {
     font-size: 25px;
