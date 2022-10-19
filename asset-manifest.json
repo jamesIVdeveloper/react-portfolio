@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.596d0580.css",
+    "main.css": "/react-portfolio/static/css/main.836f44c7.css",
     "main.js": "/react-portfolio/static/js/main.62abb5eb.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/parkfinder.png": "/react-portfolio/static/media/parkfinder.f230e88b575cfa5bda8d.png",
@@ -15,12 +15,12 @@
     "static/media/James_Murphy_resume.pdf": "/react-portfolio/static/media/James_Murphy_resume.f0db8b08e0c0aea2f560.pdf",
     "static/media/github-logo.png": "/react-portfolio/static/media/github-logo.9cbb28bbb03aa7c6786c.png",
     "index.html": "/react-portfolio/index.html",
-    "main.596d0580.css.map": "/react-portfolio/static/css/main.596d0580.css.map",
+    "main.836f44c7.css.map": "/react-portfolio/static/css/main.836f44c7.css.map",
     "main.62abb5eb.js.map": "/react-portfolio/static/js/main.62abb5eb.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.596d0580.css",
+    "static/css/main.836f44c7.css",
     "static/js/main.62abb5eb.js"
   ]
 }
