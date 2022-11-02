@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.461e0731.css",
-    "main.js": "/react-portfolio/static/js/main.47c31696.js",
+    "main.css": "/react-portfolio/static/css/main.9dd9e639.css",
+    "main.js": "/react-portfolio/static/js/main.8fc9ac6d.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/parkfinder.png": "/react-portfolio/static/media/parkfinder.f230e88b575cfa5bda8d.png",
     "static/media/90s.png": "/react-portfolio/static/media/90s.6af70bd214105354b41f.png",
@@ -11,17 +11,18 @@
     "static/media/neighborgood.png": "/react-portfolio/static/media/neighborgood.d5a8669c968e3df47159.png",
     "static/media/portfolio-bg.jpg": "/react-portfolio/static/media/portfolio-bg.4efd12c72348c9c018ec.jpg",
     "static/media/me-pic.jpeg": "/react-portfolio/static/media/me-pic.91442ed462366461c6f2.jpeg",
+    "static/media/golf-pic.jpeg": "/react-portfolio/static/media/golf-pic.465d716e76f6eb9f859c.jpeg",
     "static/media/tech-blog-landing.png": "/react-portfolio/static/media/tech-blog-landing.739ff7088aa6e81bd35a.png",
     "static/media/check-landing-page.png": "/react-portfolio/static/media/check-landing-page.dcf682b93ac5837e3ea0.png",
     "static/media/James_Murphy_resume.pdf": "/react-portfolio/static/media/James_Murphy_resume.f0db8b08e0c0aea2f560.pdf",
     "static/media/github-logo.png": "/react-portfolio/static/media/github-logo.9cbb28bbb03aa7c6786c.png",
     "index.html": "/react-portfolio/index.html",
-    "main.461e0731.css.map": "/react-portfolio/static/css/main.461e0731.css.map",
-    "main.47c31696.js.map": "/react-portfolio/static/js/main.47c31696.js.map",
+    "main.9dd9e639.css.map": "/react-portfolio/static/css/main.9dd9e639.css.map",
+    "main.8fc9ac6d.js.map": "/react-portfolio/static/js/main.8fc9ac6d.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.461e0731.css",
-    "static/js/main.47c31696.js"
+    "static/css/main.9dd9e639.css",
+    "static/js/main.8fc9ac6d.js"
   ]
 }
