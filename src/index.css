@@ -6,14 +6,19 @@
 :root {
   --black: #0d0d0d;
   --light-gray: #d2d6d9;
-  --light-blue: #aab7bf;
-  --medium-blue: #495773;
+  --light-blue: #45d1fc;
   --dark-blue: #272f40;
+}
+
+html {
 }
 
 body {
   margin: 0;
   padding: 0;
   font-family: "Courier New", Courier, monospace;
+  background: url(../src/assets/bg-imgs/portfolio-bg.jpg) no-repeat center
+    center fixed;
+  background-size: cover;
   background-color: var(--light-gray);
 }

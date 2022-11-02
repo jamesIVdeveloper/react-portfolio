@@ -53,8 +53,8 @@ function Nav() {
         <Link to="/react-portfolio">IV</Link>
       </h2>
       <div className="nav">
-        <Link to="/about">ABOUT</Link> | <Link to="/portfolio">PORTFOLIO</Link>{" "}
-        | <Link to="/resume">RESUME</Link> | <Link to="/contact">CONTACT</Link>
+        <Link to="/about">ABOUT</Link> | <Link to="/portfolio">PROJECTS</Link> |{" "}
+        <Link to="/resume">RESUME</Link> | <Link to="/contact">CONTACT</Link>
       </div>
     </header>
   );

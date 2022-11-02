@@ -1,7 +1,10 @@
+.container {
+  height: 100%;
+}
+
 .homepage {
   text-align: center;
-  margin: 0 30%;
-  padding: 30px;
+  padding-top: 150px;
   display: flex;
   flex-direction: column;
 }
@@ -29,9 +32,11 @@
 }
 
 @media screen and (min-width: 700px) {
-  /* .homepage {
-    padding-left: 10%;
-  } */
+  .homepage {
+    display: flex;
+    align-items: center;
+    margin: 0 30%;
+  }
 
   .home-intro {
     font-size: 25px;

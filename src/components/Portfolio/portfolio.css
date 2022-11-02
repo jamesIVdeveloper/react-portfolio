@@ -1,9 +1,5 @@
 /* portfolio */
 
-#portfolio-title {
-  text-align: center;
-}
-
 #projects {
   display: flex;
   flex-wrap: wrap;

@@ -4,7 +4,6 @@ import "./portfolio.css";
 function Portfolio() {
   return (
     <section>
-      <h1 id="portfolio-title">Portfolio</h1>
       <div id="projects">
         <div class="project">
           <img
