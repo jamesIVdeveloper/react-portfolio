@@ -1,13 +1,19 @@
 /* resume */
 
 #resume {
-  margin: 0 5%;
+  margin: 100px 5% 0 5%;
   text-align: center;
   line-height: 1.5em;
+  backdrop-filter: blur(10px);
 }
 
 .resume {
   margin-bottom: 20px;
+}
+
+.resume-link:hover {
+  font-weight: bold;
+  color: var(--light-blue);
 }
 
 .skills-title {
@@ -22,6 +28,13 @@
   padding-left: 0;
   list-style: none;
   text-align: center;
+}
+
+.skill {
+  background-color: var(--light-blue);
+  margin: 4px 0;
+  padding: 3px 5px;
+  border: 2px solid var(--black);
 }
 
 @media screen and (min-width: 600px) {

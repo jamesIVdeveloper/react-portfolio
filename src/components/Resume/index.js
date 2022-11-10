@@ -7,6 +7,7 @@ function Resume() {
       <div className="resume">
         <h1>Resume</h1>
         <a
+          className="resume-link"
           href={require("../../assets/resume/James_Murphy_resume.pdf")}
           download
         >
@@ -18,24 +19,24 @@ function Resume() {
         <div className="frontend">
           <h3 className="skill-type">Front-End</h3>
           <ul id="skill-type">
-            <li>HTML5</li>
-            <li>CSS</li>
-            <li>jQuery</li>
-            <li>JavaScript</li>
-            <li>Bootstrap</li>
-            <li>AJAX</li>
-            <li>SASS</li>
+            <li className="skill">HTML5</li>
+            <li className="skill">CSS</li>
+            <li className="skill">jQuery</li>
+            <li className="skill">JavaScript</li>
+            <li className="skill">Bootstrap</li>
+            <li className="skill">AJAX</li>
+            <li className="skill">SASS</li>
           </ul>
         </div>
         <div className="backend">
           <h3 className="skill-type">Back-End</h3>
           <ul id="skill-type">
-            <li>MySQL</li>
-            <li>MongoDB</li>
-            <li>Express</li>
-            <li>ReactJS</li>
-            <li>Node</li>
-            <li>Handlebars</li>
+            <li className="skill">MySQL</li>
+            <li className="skill">MongoDB</li>
+            <li className="skill">Express</li>
+            <li className="skill">ReactJS</li>
+            <li className="skill">Node</li>
+            <li className="skill">Handlebars</li>
           </ul>
         </div>
       </div>
