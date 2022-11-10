@@ -21,7 +21,7 @@ function About() {
           Was the 90’s'. I took a lead role in the project, building several
           components and connecting back-end to front-end, as well as working
           out several bugs that arose. Through this bootcamp, as well as other
-          avenues, I have also culminated skills as a leader, a good
+          avenues, I have also accumulated skills as a leader, a good
           communicator, and a problem solver. I look forward to combining these
           skills with my newly acquired development skills to build great
           applications with others.
