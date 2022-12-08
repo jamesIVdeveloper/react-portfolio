@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.413cc49d.css",
-    "main.js": "/react-portfolio/static/js/main.803ba801.js",
+    "main.css": "/react-portfolio/static/css/main.57720aad.css",
+    "main.js": "/react-portfolio/static/js/main.fbbe62f5.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/parkfinder.png": "/react-portfolio/static/media/parkfinder.e9f34cc97ee8a9d40aa6.png",
-    "static/media/portfolio-bg.jpg": "/react-portfolio/static/media/portfolio-bg.4efd12c72348c9c018ec.jpg",
-    "static/media/me-pic.jpeg": "/react-portfolio/static/media/me-pic.91442ed462366461c6f2.jpeg",
+    "static/media/check-landing-page.png": "/react-portfolio/static/media/check-landing-page.96a5093f6cb2d3bd0053.png",
+    "static/media/portfolio-bg.jpg": "/react-portfolio/static/media/portfolio-bg.81d89fd018c81a6149fc.jpg",
+    "static/media/crwn.png": "/react-portfolio/static/media/crwn.791f89f84cf4347ae88f.png",
     "static/media/golf-pic.jpeg": "/react-portfolio/static/media/golf-pic.465d716e76f6eb9f859c.jpeg",
-    "static/media/tech-blog-landing.png": "/react-portfolio/static/media/tech-blog-landing.739ff7088aa6e81bd35a.png",
-    "static/media/check-landing-page.png": "/react-portfolio/static/media/check-landing-page.dcf682b93ac5837e3ea0.png",
-    "static/media/James_Murphy_resume.pdf": "/react-portfolio/static/media/James_Murphy_resume.392ba63870e1d3722439.pdf",
+    "static/media/me-pic.jpeg": "/react-portfolio/static/media/me-pic.c97095a2b47f4e7c5992.jpeg",
+    "static/media/quote-generator.png": "/react-portfolio/static/media/quote-generator.bfe1a9d2c89ac35cbc9f.png",
+    "static/media/James_Murphy_resume.pdf": "/react-portfolio/static/media/James_Murphy_resume.9d65bd78bccc72e4f67b.pdf",
     "static/media/github-logo.png": "/react-portfolio/static/media/github-logo.9cbb28bbb03aa7c6786c.png",
     "index.html": "/react-portfolio/index.html",
-    "main.413cc49d.css.map": "/react-portfolio/static/css/main.413cc49d.css.map",
-    "main.803ba801.js.map": "/react-portfolio/static/js/main.803ba801.js.map",
+    "main.57720aad.css.map": "/react-portfolio/static/css/main.57720aad.css.map",
+    "main.fbbe62f5.js.map": "/react-portfolio/static/js/main.fbbe62f5.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.413cc49d.css",
-    "static/js/main.803ba801.js"
+    "static/css/main.57720aad.css",
+    "static/js/main.fbbe62f5.js"
   ]
 }
