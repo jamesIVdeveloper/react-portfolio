@@ -11,16 +11,16 @@
 
 @keyframes title {
   0% {
-    color: rgb(47, 134, 47);
+    color: rgb(244, 40, 40);
   }
   25% {
-    color: rgb(171, 72, 155);
+    color: rgb(59, 214, 59);
   }
   50% {
-    color: rgb(45, 45, 163);
+    color: rgb(68, 68, 244);
   }
   100% {
-    color: var(--black);
+    color: white;
   }
 }
 
@@ -29,6 +29,15 @@
   animation-name: title;
   animation-duration: 8s;
   animation-iteration-count: infinite;
+}
+
+.home-intro {
+  color: white;
+}
+
+.intro-emphasis {
+  font-style: italic;
+  text-shadow: 2px 2px 2px black;
 }
 
 @media screen and (min-width: 700px) {

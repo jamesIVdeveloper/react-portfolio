@@ -18,26 +18,27 @@ function Resume() {
       <div id="skills">
         <div className="frontend">
           <h3 className="skill-type">Front-End</h3>
-          <ul id="skill-type">
-            <li className="skill">HTML5</li>
-            <li className="skill">CSS</li>
-            <li className="skill">jQuery</li>
-            <li className="skill">JavaScript</li>
-            <li className="skill">Bootstrap</li>
-            <li className="skill">AJAX</li>
-            <li className="skill">SASS</li>
-          </ul>
+          <div id="skill-list">
+            <span className="skill">HTML5</span>
+            <span className="skill">CSS</span>
+            <span className="skill">jQuery</span>
+            <span className="skill">JavaScript</span>
+            <span className="skill">React</span>
+            <span className="skill">Bootstrap</span>
+            <span className="skill">AJAX</span>
+            <span className="skill">SASS</span>
+          </div>
         </div>
         <div className="backend">
           <h3 className="skill-type">Back-End</h3>
-          <ul id="skill-type">
-            <li className="skill">MySQL</li>
-            <li className="skill">MongoDB</li>
-            <li className="skill">Express</li>
-            <li className="skill">ReactJS</li>
-            <li className="skill">Node</li>
-            <li className="skill">Handlebars</li>
-          </ul>
+          <div id="skill-list">
+            <span className="skill">MySQL</span>
+            <span className="skill">MongoDB</span>
+            <span className="skill">Express</span>
+
+            <span className="skill">Node</span>
+            <span className="skill">Handlebars</span>
+          </div>
         </div>
       </div>
     </section>

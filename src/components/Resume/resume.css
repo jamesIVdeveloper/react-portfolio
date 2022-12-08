@@ -5,34 +5,52 @@
   text-align: center;
   line-height: 1.5em;
   backdrop-filter: blur(10px);
+  color: white;
 }
 
 .resume {
   margin-bottom: 20px;
 }
 
+.resume h1 {
+  text-decoration: underline;
+  margin-bottom: 15px;
+}
+
+.resume-link {
+  color: black;
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: white;
+  padding: 5px;
+}
+
 .resume-link:hover {
   font-weight: bold;
-  color: var(--light-blue);
+  color: white;
+  background-color: black;
+  border: 2px solid white;
 }
 
 .skills-title {
   margin-bottom: 10px;
-}
-
-.skill-type {
   text-decoration: underline;
 }
 
-#skills ul {
-  padding-left: 0;
-  list-style: none;
-  text-align: center;
+.skill-type {
+  margin: 10px 0;
+}
+
+#skill-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .skill {
   background-color: var(--light-blue);
-  margin: 4px 0;
+  margin: 5px;
   padding: 3px 5px;
   border: 2px solid var(--black);
 }

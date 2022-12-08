@@ -5,27 +5,28 @@ function Portfolio() {
   return (
     <section>
       <div id="projects">
+        {/* PROJECT */}
         <div className="project">
           <div className="project-info">
-            <h1 className="project-name">Tech Blog</h1>
+            <h1 className="project-name">Crwn</h1>
             <p className="project-description">
-              A blog site, where you can log in, create blogs, and add comments
-              on other users' blogs.
+              Crwn is a mock E-commerce site. You can sign in, browse items, and
+              add them to your cart for checkout. While building this, I learned
+              a lot more about React, and got practice with concepts like
+              context and state.
             </p>
             <div className="tools-container">
               <h3 className="tools-title">Built With</h3>
-              <ul className="project-tools">
-                <li className="tool">JavaScript</li>
-                <li className="tool">Handlebars</li>
-                <li className="tool">MySQL</li>
-                <li className="tool">Express</li>
-                <li className="tool">Sequelize</li>
-              </ul>
+              <div className="project-tools">
+                <span className="tool">React</span>
+                <span className="tool">JavaScript</span>
+                <span className="tool">Firebase</span>
+              </div>
             </div>
-            <p>
+            <p className="project-links">
               Check out the{" "}
               <a
-                href="https://intense-shelf-50188.herokuapp.com/"
+                href="https://poetic-pastelito-530e6b.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -33,7 +34,7 @@ function Portfolio() {
               </a>{" "}
               version or the{" "}
               <a
-                href="https://github.com/jamesIVdeveloper/tech-blog"
+                href="https://github.com/jamesIVdeveloper/crwn-store"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -44,11 +45,12 @@ function Portfolio() {
           <div className="project-img-container">
             <img
               className="project-img"
-              src={require("../../assets/project-imgs/tech-blog-landing.png")}
+              src={require("../../assets/project-imgs/crwn.png")}
               alt="landing page of my tech blog application"
             />
           </div>
         </div>
+        {/* PROJECT */}
         <div className="project">
           <div className="project-info">
             <h1 className="project-name">Check</h1>
@@ -58,13 +60,13 @@ function Portfolio() {
             </p>
             <div className="tools-container">
               <h3 className="tools-title">Built With</h3>
-              <ul className="project-tools">
-                <li className="tool">HTML</li>
-                <li className="tool">CSS</li>
-                <li className="tool">JavaScript</li>
-              </ul>
+              <div className="project-tools">
+                <span className="tool">HTML</span>
+                <span className="tool">CSS</span>
+                <span className="tool">JavaScript</span>
+              </div>
             </div>
-            <p>
+            <p className="project-links">
               Check out the{" "}
               <a
                 href="https://jamesivdeveloper.github.io/check/"
@@ -91,6 +93,7 @@ function Portfolio() {
             />
           </div>
         </div>
+        {/* PROJECT */}
         <div className="project">
           <div className="project-info">
             <h1 className="project-name">Parkfinder</h1>
@@ -101,14 +104,14 @@ function Portfolio() {
             </p>
             <div className="tools-container">
               <h3 className="tools-title">Built With</h3>
-              <ul className="project-tools">
-                <li className="tool">HTML</li>
-                <li className="tool">CSS</li>
-                <li className="tool">JavaScript</li>
-                <li className="tool">jQuery</li>
-              </ul>
+              <div className="project-tools">
+                <span className="tool">HTML</span>
+                <span className="tool">CSS</span>
+                <span className="tool">JavaScript</span>
+                <span className="tool">jQuery</span>
+              </div>
             </div>
-            <p>
+            <p className="project-links">
               Check out the{" "}
               <a
                 href="https://jamesivdeveloper.github.io/national-park/"
@@ -135,166 +138,50 @@ function Portfolio() {
             />
           </div>
         </div>
-        {/* <div class="project">
-          <img
-            src={require("../../assets/project-imgs/tech-blog-landing.png")}
-            alt="landing page of my tech blog application"
-          />
-          <a
-            href="https://intense-shelf-50188.herokuapp.com/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Deployed
-          </a>
-          <a
-            href="https://github.com/jamesIVdeveloper/tech-blog"
-            target="_blank"
-            rel="noreferrer"
-          >
-            GitHub Repo
-          </a>
+        {/* PROJECT */}
+        <div className="project">
+          <div className="project-info">
+            <h1 className="project-name">Quote Generator</h1>
+            <p className="project-description">
+              Quote Generator is an application that generates quotes at the
+              press of a button. You can also choose to tweet a quote if you
+              really like it.
+            </p>
+            <div className="tools-container">
+              <h3 className="tools-title">Built With</h3>
+              <div className="project-tools">
+                <span className="tool">HTML</span>
+                <span className="tool">CSS</span>
+                <span className="tool">JavaScript</span>
+              </div>
+            </div>
+            <p className="project-links">
+              Check out the{" "}
+              <a
+                href="https://jamesivdeveloper.github.io/quote-generator/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Live
+              </a>{" "}
+              version or the{" "}
+              <a
+                href="https://github.com/jamesIVdeveloper/quote-generator"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub Repo
+              </a>
+            </p>
+          </div>
+          <div className="project-img-container">
+            <img
+              className="project-img"
+              src={require("../../assets/project-imgs/quote-generator.png")}
+              alt="landing page of my tech blog application"
+            />
+          </div>
         </div>
-        <div class="project">
-          <img
-            src={require("../../assets/project-imgs/check-landing-page.png")}
-            alt="landing page of my check application"
-          />
-          <a
-            href="https://jamesivdeveloper.github.io/check/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Deployed
-          </a>
-          <a
-            href="https://github.com/jamesIVdeveloper/check"
-            target="_blank"
-            rel="noreferrer"
-          >
-            GitHub Repo
-          </a>
-        </div>
-        <div class="project">
-          <img
-            src={require("../../assets/project-imgs/parkfinder.png")}
-            alt="landing page of my park finder application"
-          />
-          <a
-            href="https://jamesivdeveloper.github.io/national-park/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Deployed
-          </a>
-          <a
-            href="https://github.com/jamesIVdeveloper/national-park"
-            target="_blank"
-            rel="noreferrer"
-          >
-            GitHub Repo
-          </a>
-        </div>
-        <div class="project">
-          <img
-            src={require("../../assets/project-imgs/90s.png")}
-            alt="landing page of my 90's movies reviews application"
-          />
-          <a
-            href="https://itwasthe90s.herokuapp.com/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Deployed
-          </a>
-          <a
-            href="https://github.com/Jasonwesleysmith/it-was-the-90s"
-            target="_blank"
-            rel="noreferrer"
-          >
-            GitHub Repo
-          </a>
-        </div>
-        <div class="project">
-          <img
-            src={require("../../assets/project-imgs/neighborgood.png")}
-            alt="landing page of nieghborgood application"
-          />
-          <a
-            href="https://project-3-neighbor-good.herokuapp.com/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Deployed
-          </a>
-          <a
-            href="https://github.com/Jasonwesleysmith/neighbor-good"
-            target="_blank"
-            rel="noreferrer"
-          >
-            GitHub Repo
-          </a>
-        </div>
-        <div class="project">
-          <img
-            src={require("../../assets/project-imgs/hangman.png")}
-            alt="landing page of hangman game application"
-          />
-          <a
-            href="https://shawnmwillard.github.io/Hangman-Game/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Deployed
-          </a>
-          <a
-            href="https://github.com/shawnmwillard/Hangman-Game"
-            target="_blank"
-            rel="noreferrer"
-          >
-            GitHub Repo
-          </a>
-        </div>
-        <div class="project">
-          <img
-            src={require("../../assets/project-imgs/tigerwoods.png")}
-            alt="landing page of my tiger woods quiz application"
-          />
-          <a
-            href="https://jamesivdeveloper.github.io/Tiger-Quiz-App/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Deployed
-          </a>
-          <a
-            href="https://github.com/jamesIVdeveloper/Tiger-Quiz-App"
-            target="_blank"
-            rel="noreferrer"
-          >
-            GitHub Repo
-          </a>
-        </div>
-        <div class="project">
-          <img
-            src={require("../../assets/project-imgs/gamehub.png")}
-            alt="landing page of my game hub application"
-          />
-          <a
-            href="https://jamesivdeveloper.github.io/game-hub/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Deployed
-          </a>
-          <a
-            href="https://github.com/jamesIVdeveloper/game-hub"
-            target="_blank"
-            rel="noreferrer"
-          >
-            GitHub Repo
-          </a>
-        </div> */}
       </div>
     </section>
   );

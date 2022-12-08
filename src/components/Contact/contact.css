@@ -1,38 +1,6 @@
-/* contact */
-
-/* #contact-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 20px 0;
-}
-
-#contact-title {
-  text-align: center;
-}
-
-#contact-form {
-  display: flex;
-  flex-direction: column;
-  line-height: 2em;
-}
-
-#contact-form label {
-  padding-right: 5px;
-}
-
-#contact-submit {
-  align-self: center;
-  width: 30%;
-  background-color: black;
-  color: white;
-  padding: 5px;
-  border-radius: 5px;
-  cursor: pointer;
-} */
-
 .contacts {
   margin-top: 100px;
+  color: white;
 }
 
 .contact {
@@ -47,4 +15,8 @@
 .contact img {
   height: 175px;
   width: 175px;
+}
+
+.contact img:hover {
+  transform: scale(1.05);
 }

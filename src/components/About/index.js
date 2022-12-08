@@ -11,20 +11,17 @@ function About() {
           className="about-pic"
         />
         <p id="about-info">
-          Front-end web developer with experience in back-end. Recently finished
-          a full-stack web development program through Vanderbilt University,
-          where I acquired skills such as: HTML, CSS, JavaScript, Node.js, SQL,
-          ORM, MVC, React, as well as others. With each project, I focus on
-          creating great functionality, as well as an aesthetic user experience
-          that is easy to navigate. In a recent project, I worked with two other
-          developers to create a full-stack movie review application called ‘It
-          Was the 90’s'. I took a lead role in the project, building several
-          components and connecting back-end to front-end, as well as working
-          out several bugs that arose. Through this bootcamp, as well as other
-          avenues, I have also accumulated skills as a leader, a good
-          communicator, and a problem solver. I look forward to combining these
-          skills with my newly acquired development skills to build great
-          applications with others.
+          I am a Frontend Developer with experience in Backend, as well.
+          Recently, I finished a full-stack web development program through
+          Vanderbilt University, where I acquired skills such as: HTML, CSS,
+          JavaScript, Node.js, SQL, ORM, MVC, React, as well as others. With
+          each project, I focus on creating great functionality, as well as an
+          aesthetic user experience that is easy to navigate. My most recent
+          project is a mock E-commerce clothing site and can be found on my
+          portfolio page. Through the bootcamp, as well as other avenues, I have
+          also accumulated skills as a leader, a good communicator, and a
+          problem solver. I look forward to combining these skills with my newly
+          acquired development skills to build great applications with others.
         </p>
       </div>
       <div id="pic-info">

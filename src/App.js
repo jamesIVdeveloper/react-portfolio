@@ -8,43 +8,10 @@ import Resume from "./components/Resume";
 import { Route, Routes } from "react-router-dom";
 
 function App() {
-  /*
-  const [pages] = useState([
-    {
-      name: "Portfolio",
-    },
-    {
-      name: "Resume",
-    },
-  ]);
-
-  const [currentPage, setCurrentPage] = useState(pages[0]);
-
-  const [contactSelected, setContactSelected] = useState(false);
-  */
-
   return (
-    <div>
-      {/* <Nav
-      pages={pages}
-      setCurrentPage={setCurrentPage}
-      currentPage={currentPage}
-      contactSelected={contactSelected}
-      setContactSelected={setContactSelected}
-      />
-      <main>
-        {!contactSelected ? (
-          <>
-            <About />
-            <Portfolio currentPage={currentPage} />
-            <Resume />
-          </>
-        ) : (
-          <ContactForm />
-        )}
-      </main> */}
+    <div className="app-container">
       <Nav />
-      <div className="container">
+      <div className="main-container">
         <Routes>
           <Route path="/react-portfolio" element={<Home />} />
           <Route path="/about" element={<About />} />
